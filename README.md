@@ -5,13 +5,13 @@ This repository contains all hardware-related files for the Ad Astra UC3M Rocket
 ## Repository Structure
 
 ### `Hardware/`
-Contains the KiCad project files, including schematics (`.kicad_sch`), PCB layout (`.kicad_pcb`), and project-specific component libraries (symbols and footprints). This is the main working directory for PCB design.
+Contains the KiCad project files, including schematics (`.kicad_sch`), PCB layout (`.kicad_pcb`), and project specific component libraries (symbols and footprints). This is the main working directory for PCB design.
 
 ### `Docs/`
 Contains datasheets for all components used across the project, as well as internal design notes and requirement specifications. If you chose a component or made a design decision, document it here.
 
 ### `Production/`
-Contains all files required by fabrication houses (e.g. JLCPCB, PCBWay): Gerber files, drill files, BOM, and pick-and-place files. These are outputs exported from KiCad — never edit them manually.
+Contains all files required by fabrication houses (e.g. JLCPCB, PCBWay): Gerber files, drill files and BOM. These are outputs exported from KiCad, never edit them manually.
 
 ### `Simulation/`
 Contains electrical simulation files (e.g. LTspice `.asc` files) for power circuits, filters, or any other subcircuit that was simulated during the design process, along with their results.
